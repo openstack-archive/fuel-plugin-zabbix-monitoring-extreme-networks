@@ -1,0 +1,4 @@
+.build/
+*.noarch.rpm
+repositories/centos/*.rpm
+repositories/ubuntu/*.deb
