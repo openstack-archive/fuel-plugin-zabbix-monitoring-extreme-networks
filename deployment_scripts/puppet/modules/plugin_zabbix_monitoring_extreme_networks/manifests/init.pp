@@ -14,7 +14,7 @@
 #    under the License.
 #
 class plugin_zabbix_monitoring_extreme_networks(
-  $host_group = 'Extreme Networks',
+  $host_group = ['Extreme Networks', 'Hardware'],
 )
 {
 

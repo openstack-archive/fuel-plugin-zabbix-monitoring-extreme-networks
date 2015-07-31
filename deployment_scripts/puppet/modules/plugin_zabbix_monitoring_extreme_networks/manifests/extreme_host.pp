@@ -14,7 +14,7 @@
 #    under the License.
 #
 define plugin_zabbix_monitoring_extreme_networks::extreme_host(
-  $host_group = 'Extreme Networks',
+  $host_group = ['Extreme Networks', 'Hardware'],
 ) {
 
   $host = split($name,':')
