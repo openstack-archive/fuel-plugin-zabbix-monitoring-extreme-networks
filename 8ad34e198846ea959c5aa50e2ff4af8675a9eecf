@@ -1,0 +1,11 @@
+Verified+2: Jenkins
+Code-Review+1: Bartosz Kupidura <bkupidura@mirantis.com>
+Workflow+1: Bartosz Kupidura <bkupidura@mirantis.com>
+Code-Review+2: Szymon Banka <sbanka@mirantis.com>
+Workflow+1: Szymon Banka <sbanka@mirantis.com>
+Code-Review+1: Dmitry Kalashnik <dkalashnik@mirantis.com>
+Submitted-by: Jenkins
+Submitted-at: Tue, 04 Aug 2015 08:49:52 +0000
+Reviewed-on: https://review.openstack.org/207946
+Project: stackforge/fuel-plugin-zabbix-monitoring-extreme-networks
+Branch: refs/heads/master
