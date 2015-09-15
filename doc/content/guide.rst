@@ -24,7 +24,7 @@ Environment configuration
 
    When you add your hardware to the *Extreme Networks hardware to monitor*
    comma separated list, then the plugin will automatically configure
-   monitoring for these hardware in Zabbix by doing following actions:
+   monitoring for hardware in Zabbix by doing following actions:
 
    - create a Host with provided Name and IP address
    - link the Extreme Networks monitoring template to the Host
