@@ -9,8 +9,8 @@ information about networks, see the `Logical Networks <https://docs.mirantis
 .com/openstack/fuel/fuel-7.0/reference-architecture.html#logical-networks>`_
 section of MOS documentation. The plugin configures snmptt to parse and pass
 Extreme Networks specific traps to Zabbix. It also configures Zabbix by adding
-Template with appropriate items and triggers and by creating Hosts for each
-Extreme Networks hardware.
+Template with items and triggers and by creating Hosts for each Extreme
+Networks hardware.
 
 Requirements
 ============
