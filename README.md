@@ -17,7 +17,7 @@ Requirements
 | Requirement                        | Version/Comment |
 |:-----------------------------------|:----------------|
 | Mirantis OpenStack compatibility   | 7.0             |
-| Zabbix plugin for Fuel             | 2.0.0           |
+| Zabbix plugin for Fuel             | 2.5.0           |
 | SNMP trap daemon for Zabbix plugin | 1.0.0           |
 
 Installation Guide
@@ -56,7 +56,7 @@ follow these steps:
         # fuel plugins
         id | name                               | version | package_version
         ---|------------------------------------|---------|----------------
-        1  | zabbix_monitoring                  | 2.0.0   | 3.0.0
+        1  | zabbix_monitoring                  | 2.5.0   | 3.0.0
         2  | zabbix_snmptrapd                   | 1.0.0   | 2.0.0
         3  | zabbix_monitoring_extreme_networks | 1.0.0   | 2.0.0
 
