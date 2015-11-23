@@ -21,7 +21,7 @@ follow these steps:
    Fuel Master node using ssh. If you do not have the Fuel Master node yet,
    see `Quick Start Guide <https://software.mirantis.com/quick-start/>`_::
 
-    # scp zabbix_monitoring-2.0-2.0.0-1.noarch.rpm \
+    # scp zabbix_monitoring-2.5-2.5.0-1.noarch.rpm \
       root@<The_Fuel_Master_node_IP>:/tmp
     # scp zabbix_snmptrapd-1.0-1.0.0-1.noarch.rpm \
       root@<The_Fuel_Master_node_IP>:/tmp
@@ -33,7 +33,7 @@ follow these steps:
 
     # cd /tmp
     # fuel plugins --install \
-      zabbix_monitoring-2.0-2.0.0-1.noarch.rpm
+      zabbix_monitoring-2.5-2.5.0-1.noarch.rpm
     # fuel plugins --install \
       zabbix_snmptrapd-1.0-1.0.0-1.noarch.rpm
     # fuel plugins --install \
@@ -44,7 +44,7 @@ follow these steps:
     # fuel plugins
     id | name                               | version  | package_version
     ---|------------------------------------|----------|----------------
-    1  | zabbix_monitoring                  | 2.0.0    | 3.0.0
+    1  | zabbix_monitoring                  | 2.5.0    | 3.0.0
     2  | zabbix_snmptrapd                   | 1.0.0    | 2.0.0
     3  | zabbix_monitoring_extreme_networks | 1.0.0    | 2.0.0
 
