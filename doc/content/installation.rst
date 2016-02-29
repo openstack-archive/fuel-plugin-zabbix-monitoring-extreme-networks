@@ -23,9 +23,9 @@ follow these steps:
 
     # scp zabbix_monitoring-2.5-2.5.0-1.noarch.rpm \
       root@<The_Fuel_Master_node_IP>:/tmp
-    # scp zabbix_snmptrapd-1.0-1.0.0-1.noarch.rpm \
+    # scp zabbix_snmptrapd-1.0-1.0.1-1.noarch.rpm \
       root@<The_Fuel_Master_node_IP>:/tmp
-    # scp zabbix_monitoring_extreme_networks-1.0-1.0.0-1.noarch.rpm \
+    # scp zabbix_monitoring_extreme_networks-1.0-1.0.1-1.noarch.rpm \
       root@<The_Fuel_Master_node_IP>:/tmp
 
 5. Log into the Fuel Master node. Install each of the three plugins using
@@ -35,9 +35,9 @@ follow these steps:
     # fuel plugins --install \
       zabbix_monitoring-2.5-2.5.0-1.noarch.rpm
     # fuel plugins --install \
-      zabbix_snmptrapd-1.0-1.0.0-1.noarch.rpm
+      zabbix_snmptrapd-1.0-1.0.1-1.noarch.rpm
     # fuel plugins --install \
-      zabbix_monitoring_extreme_networks-1.0-1.0.0-1.noarch.rpm
+      zabbix_monitoring_extreme_networks-1.0-1.0.1-1.noarch.rpm
 
 6. Make sure the plugins were installed correctly::
 
@@ -45,6 +45,6 @@ follow these steps:
     id | name                               | version  | package_version
     ---|------------------------------------|----------|----------------
     1  | zabbix_monitoring                  | 2.5.0    | 3.0.0
-    2  | zabbix_snmptrapd                   | 1.0.0    | 2.0.0
-    3  | zabbix_monitoring_extreme_networks | 1.0.0    | 2.0.0
+    2  | zabbix_snmptrapd                   | 1.0.1    | 2.0.0
+    3  | zabbix_monitoring_extreme_networks | 1.0.1    | 2.0.0
 

@@ -16,9 +16,9 @@ Requirements
 
 | Requirement                        | Version/Comment |
 |:-----------------------------------|:----------------|
-| Mirantis OpenStack compatibility   | 7.0             |
+| Mirantis OpenStack compatibility   | 7.0 or 8.0      |
 | Zabbix plugin for Fuel             | 2.5.0           |
-| SNMP trap daemon for Zabbix plugin | 1.0.0           |
+| SNMP trap daemon for Zabbix plugin | 1.0.1           |
 
 Installation Guide
 ==================
@@ -42,14 +42,14 @@ follow these steps:
     that. If you do not have the Fuel Master node yet, see
     [Quick Start Guide](https://software.mirantis.com/quick-start/) :
 
-        # scp zabbix_monitoring_extreme_networks-1.0-1.0.0-1.noarch.rpm \
+        # scp zabbix_monitoring_extreme_networks-1.0-1.0.1-1.noarch.rpm \
           root@<Fuel_Master_ip>:/tmp
 
 5. Install the plugin:
 
         # cd /tmp
         # fuel plugins --install \
-          zabbix_monitoring_extreme_networks-1.0-1.0.0-1.noarch.rpm
+          zabbix_monitoring_extreme_networks-1.0-1.0.1-1.noarch.rpm
 
 6. Check if the plugin was installed successfully:
 
@@ -57,8 +57,8 @@ follow these steps:
         id | name                               | version | package_version
         ---|------------------------------------|---------|----------------
         1  | zabbix_monitoring                  | 2.5.0   | 3.0.0
-        2  | zabbix_snmptrapd                   | 1.0.0   | 2.0.0
-        3  | zabbix_monitoring_extreme_networks | 1.0.0   | 2.0.0
+        2  | zabbix_snmptrapd                   | 1.0.1   | 2.0.0
+        3  | zabbix_monitoring_extreme_networks | 1.0.1   | 2.0.0
 
 For more information and instructions, see the Extreme Networks hardware
 monitoring extension for Zabbix plugin Guide in the
