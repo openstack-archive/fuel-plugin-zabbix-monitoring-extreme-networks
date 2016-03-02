@@ -18,15 +18,14 @@ define plugin_zabbix_monitoring_extreme_networks::extreme_host(
 ) {
 
   $host = split($name,':')
-
   if size($host) == 2 {
     plugin_zabbix_host { $host[0]:
-      host     => $host[0],
-      type     => 2,
-      ip       => $host[1],
-      port     => '161',
-      api      => $plugin_zabbix::params::api_hash,
-      groups   => $host_group,
+      host   => $host[0],
+      type   => 2,
+      ip     => $host[1],
+      port   => '161',
+      api    => $plugin_zabbix::params::api_hash,
+      groups => $host_group,
     }
     plugin_zabbix_template_link { "${host[0]} Template Extreme Networks":
       host     => $host[0],
