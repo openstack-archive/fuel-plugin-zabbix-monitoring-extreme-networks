@@ -21,20 +21,20 @@ class plugin_zabbix_monitoring_extreme_networks(
   include plugin_zabbix::params
 
   file { '/etc/zabbix/import/Template_Extreme_Networks.xml':
-    ensure     => present,
-    source     => 'puppet:///modules/plugin_zabbix_monitoring_extreme_networks/Template_Extreme_Networks.xml',
+    ensure => present,
+    source => 'puppet:///modules/plugin_zabbix_monitoring_extreme_networks/Template_Extreme_Networks.xml',
   }
 
   plugin_zabbix_configuration_import { 'Template_Extreme_Networks.xml Import':
-    ensure     => present,
-    xml_file   => '/etc/zabbix/import/Template_Extreme_Networks.xml',
-    api        => $plugin_zabbix::params::api_hash,
-    require    => File['/etc/zabbix/import/Template_Extreme_Networks.xml'],
+    ensure   => present,
+    xml_file => '/etc/zabbix/import/Template_Extreme_Networks.xml',
+    api      => $plugin_zabbix::params::api_hash,
+    require  => File['/etc/zabbix/import/Template_Extreme_Networks.xml'],
   }
 
   plugin_zabbix_hostgroup {$host_group:
-    ensure     => present,
-    api        => $plugin_zabbix::params::api_hash,
+    ensure => present,
+    api    => $plugin_zabbix::params::api_hash,
   }
 
   $zabbix_monitoring_extreme_hash = hiera('zabbix_monitoring_extreme_networks')
