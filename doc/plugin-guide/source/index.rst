@@ -1,16 +1,18 @@
-*****************************************************************************
-Guide to the Extreme Networks hardware monitoring extension for Zabbix plugin
-*****************************************************************************
-
-This document provides instructions for installing, configuring and using
-Extreme Networks hardware monitoring extension for Zabbix plugin.
+=====================================================================================================
+Welcome to the Zabbix Extreme Networks hardware monitoring extension plugin for Fuel's documentation!
+=====================================================================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   terms.rst
-   description.rst
-   installation.rst
-   guide.rst
-   appendix.rst
+   revisionhistory
+   purpose
+   keyterms
+   description
+   changelog
+   limitations
+   installation
+   guide
+   troubleshooting
+   appendix
 
