@@ -1,6 +1,6 @@
-================================================================
-Extreme Networks hardware monitoring extension for Zabbix plugin
-================================================================
+=============================================================================
+Guide to the Extreme Networks hardware monitoring extension for Zabbix plugin
+=============================================================================
 
 Extreme Networks hardware monitoring extension plugin extends Zabbix plugin
 functionality by adding monitoring of incoming SNMP traps sent from Extreme
