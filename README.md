@@ -14,11 +14,11 @@ and triggers and by creating Hosts for each Extreme Networks hardware.
 Requirements
 ------------
 
-| Requirement                        | Version/Comment |
-|:-----------------------------------|:----------------|
-| Mirantis OpenStack compatibility   | 7.0, 8.0, 9.0   |
-| Zabbix plugin for Fuel             | 2.5.1           |
-| SNMP trap daemon for Zabbix plugin | 1.1.0           |
+| Requirement                        | Version/Comment    |
+|:-----------------------------------|:-------------------|
+| Mirantis OpenStack compatibility   | 7.0, 8.0, 9.0, 9.1 |
+| Zabbix plugin for Fuel             | 2.5.1              |
+| SNMP trap daemon for Zabbix plugin | 1.1.0              |
 
 Installation Guide
 ==================
